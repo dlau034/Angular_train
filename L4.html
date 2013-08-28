@@ -1,0 +1,19 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+  </head>
+  <body>
+    <div ng-controller="Ctrl">
+      <input ng-model="name">
+      <h1>{{name}}</h1>
+    </div>
+
+    <script>
+      function Ctrl($scope) {
+          $scope.name = "David Lau"
+          $scope.name = "David Lau"
+      };
+    </script>
+  </body>
+</html>
